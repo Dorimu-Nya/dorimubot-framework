@@ -258,7 +258,7 @@ dependencies = [
 
 [[package]]
 name = "dorimubot-axum"
-version = "0.0.6"
+version = "0.0.8"
 dependencies = [
  "axum",
  "dorimubot-framework-core",
@@ -269,7 +269,7 @@ dependencies = [
 
 [[package]]
 name = "dorimubot-commands"
-version = "0.0.6"
+version = "0.0.8"
 dependencies = [
  "dorimubot-commands-macros",
  "dorimubot-framework-core",
@@ -293,7 +293,7 @@ dependencies = [
 
 [[package]]
 name = "dorimubot-framework"
-version = "0.0.6"
+version = "0.0.8"
 dependencies = [
  "dorimubot-axum",
  "dorimubot-commands",
@@ -305,7 +305,7 @@ dependencies = [
 
 [[package]]
 name = "dorimubot-framework-core"
-version = "0.0.6"
+version = "0.0.8"
 dependencies = [
  "qqbot-rust-sdk",
  "serde",
@@ -997,9 +997,9 @@ dependencies = [
 
 [[package]]
 name = "qqbot-rust-sdk"
-version = "0.0.9"
+version = "0.0.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ae771859ed02903deaea53b9d95f426f441e3ec0e8646e80c172129b439085f8"
+checksum = "f98f86e0f8ee6c5e635245b9a19d6a4638cb6da1088261dcf2c94b46bc38cb5e"
 dependencies = [
  "async-trait",
  "ed25519-dalek",
